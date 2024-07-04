@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0056a6;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    
+}
+
+.btn-primary,
+.btn-secondary {
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #0056a6;
+}
+
+.btn-secondary {
+    background-color: #0056a6;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.main-content {
+    padding: 10px;
+}
+
+.imagen-familia img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    background-size:100% 100% ;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+.contacto-texto{
+    text-align:center;
+    font-size: 100%;
+    
+}
+
+.contacto-telefono{
+    border: 1px solid rgb(201, 201, 201);
+    padding: 0px 20px;
+     
+}
+
+.contacto-telefono h4{
+    color: #0056a6;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contacto-telefono p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;       
+}
+
+.formulario{
+    padding-left: 100px;    
+}
+.formulario label{
+    font-weight: bold;    
+}
+.formulario input{
+    width: 50%;
+    height: 30px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+.formulario select{
+    width: 50%;
+    height: 30px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.formulario textarea{
+    width: 50%;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.formulario-enviar input{
+    width: 50.5%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0056a6;
+    color: #FFFFFF;
+    
+    
+
+}
+
+.planes button{
+    width: 46.5%;
+    height: 50px;
+    border: 1px solid  #0056a6;
+    border-radius: 5px;
+    margin: 40px 0px;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    color: #0056a6;
+    cursor: pointer;
+
+}
+
+
+
+footer {
+    background: #0056a6;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+footer .footer-column h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #181433;
+}
+
+footer .footer-column p {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181433;
+    margin: 5px 0;
+}
+
+footer .newsletter {
+    flex: 2;
+}
+
+footer .newsletter input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #DF6951;
+    color: #FFFFFF;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+footer .social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #DF6951;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer .copyright {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #181433;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        height: 300px;
+    }
+
+    header img {
+        height: 300px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    header p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .search-bar {
+        width: 90%;
+        top: 60%;
+        height: 40px;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+    }
+
+    .search-bar button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .section h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .steps, .testimonials, .benefits, .experiences {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .step, .testimonial, .benefit, .experience {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-column {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    footer .newsletter input[type="email"] {
+        width: 80%;
+    }
+}

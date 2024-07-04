@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSDP</title>
+    <link rel="stylesheet" href="styles-registrarse.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="login">
+            <h1>Creá una cuenta</h1>
+            <p>Exclusivo para Asociados</p>
+            <div class="formulario">
+                <form action="#" method="post">
+                    <label for="numero-carnet">Número de OSDP:</label>
+                    <input type="number" name="numero-carnet" id="numero-carnet" placeholder="Número de OSDP" required>
+                    <br>
+                    
+                    <label for="documento">Tipo de documento:</label>
+                    <select name="documento" id="documento" required>
+                        <option value="0">Selecciona un tipo de documento</option>
+                        <option value="DNI">Documento Nacional de Identidad</option>
+                        <option value="LC">Libreta Cívica</option>
+                        <option value="LE">Libreta de Enrolamiento</option>
+                        <option value="PA">Pasaporte</option>
+                    </select>
+                    <br>
+
+                    <label for="numero-documento">Número de documento:</label>
+                    <input type="number" name="numero-documento" id="numero-documento" placeholder="Número de documento" required>
+                    <br>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" id="mail" placeholder="Email" required>
+                    <br>
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+                    <br>
+                    
+                    <div class="enviar">
+                        <input type="submit" value="Registrarme">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
