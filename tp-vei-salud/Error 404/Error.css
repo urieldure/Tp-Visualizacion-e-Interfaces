@@ -51,11 +51,11 @@ a:hover {
 }
 @media (max-width: 600px) {
     .error-container {
-        flex-direction: column; /* Cambia la dirección de los elementos */
+        flex-direction: column;
         text-align: center;
     }
 
     .error-image {
-        margin-top: 20px; /* Espacio entre la imagen y el texto */
+        margin-top: 20px;
     }
 }
