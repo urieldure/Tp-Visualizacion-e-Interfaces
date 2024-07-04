@@ -203,8 +203,8 @@ footer .newsletter button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background: #DF6951;
-    color: #FFFFFF;
+    background: #ffffff;
+    color: #00aaff;
 }
 
 footer .social-media {
@@ -214,15 +214,15 @@ footer .social-media {
     margin: 0 auto;
 }
 
-footer .social-media a {
+footer .social-media i {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #DF6951;
+    background: #ffffff;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    color: #FFFFFF;
+    color: #00aaff;
     font-size: 20px;
     text-decoration: none;
 }
