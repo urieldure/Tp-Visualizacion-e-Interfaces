@@ -12,11 +12,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     background-color: #fff;
-
     max-width: 800px;
-    margin: 0 auto;
+    margin-top: -100px;
 }
 
 .error-text {
@@ -49,9 +47,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 @media (max-width: 600px) {
     .error-container {
         flex-direction: column;
+    }
+
+    .error-text {
+        flex: 1;
         text-align: center;
     }
 
