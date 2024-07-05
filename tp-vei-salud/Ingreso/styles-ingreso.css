@@ -66,14 +66,14 @@ body {
     background-color: #003c7a;
 }
 
-.btn-back {
-   background-color: #0056a6;
-   color: #fff;
-   width: 100%;
-   border-radius: 2px;
-   border: 1px solid #0056a6;
-   padding: 5px;
-}
+button {
+    background-color: #0056a6;
+    color: #fff;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #0056a6;
+    padding: 5px;
+ }
 
 .formulario p {
     text-align: center;
