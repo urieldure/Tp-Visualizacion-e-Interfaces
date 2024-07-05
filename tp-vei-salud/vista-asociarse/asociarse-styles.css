@@ -80,15 +80,20 @@ nav ul li a {
     font-size: 100%;
     
 }
+.contacto-texto p {
+    color: #1D8FE0;
+}
 
 .contacto-telefono{
     border: 1px solid rgb(201, 201, 201);
     padding: 0px 20px;
+    background-color: #1D8FE0;
+    border-radius: 10%;
      
 }
 
 .contacto-telefono h4{
-    color: #0056a6;
+    color: #ffffff;
     font-size: 15px;
     font-weight: lighter;
 }
@@ -108,7 +113,7 @@ nav ul li a {
 .formulario input{
     width: 50%;
     height: 30px;
-    border: 1px solid rgb(201, 201, 201);
+    border: 2px solid  #1D8FE0;
     border-radius: 5px;
     margin: 5px 0px;
 
@@ -116,14 +121,14 @@ nav ul li a {
 .formulario select{
     width: 50%;
     height: 30px;
-    border: 1px solid rgb(201, 201, 201);
+    border: 2px solid  #1D8FE0;
     border-radius: 5px;
     margin: 5px 0px;
 }
 
 .formulario textarea{
     width: 50%;
-    border: 1px solid rgb(201, 201, 201);
+    border: 2px solid  #1D8FE0;
     border-radius: 5px;
     margin: 5px 0px;
 }
@@ -176,7 +181,7 @@ footer .footer-column h3 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 21px;
-    color: #181433;
+    color: #ffffff;
 }
 
 footer .footer-column p {
